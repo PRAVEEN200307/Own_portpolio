@@ -313,5 +313,7 @@ input[type="text"]:hover{
    input[type="text"]{
       transform: translateY(-67px);
    }
-   
+   .hero{
+      height:800px;
+   }
 }
