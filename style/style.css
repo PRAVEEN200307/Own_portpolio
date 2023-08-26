@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 .hero{
-    height: 100vh;
+    height: 550px;
     width: 100vw;
     background:url('image/hero-bg-1.jpg');
     background-position: center;
@@ -228,10 +228,9 @@ input[type="text"]:hover{
     border-radius: 30px;
     color: #fff;
     text-decoration: none;
-    transition: all 0.5 ease-in ;
+    transition: all 0.5s ease ;
 }
-.hire_me a:hover{
-    /* background-color: #e47777; */
+.Hire_me a:hover{
     transform: scale(1.1);
 }
 .auther{
@@ -265,39 +264,36 @@ input[type="text"]:hover{
     background-color: lightcyan;
 }
 /* resonsive try panalam sir */
-@media only screen and (max-width:900px) {
-    .Box{
-       display: flex;
-       flex-direction: column;
-       justify-content: center;
-       align-items: center;
-    }
-    .card{
-        margin-top:30px;
-        width:80%;
-    }
+@media only screen and (max-width:700px) 
+{ 
+  
+}
+@media only screen and (max-width:1300px) 
+{
     .main{
         display: flex;
         flex-direction: column;
-    }
-    .subcribe a{
-        position: absolute;
-        top: 150px;
-    
-    }
-}
-@media only screen and (max-width:1000px) {
-    .Box{
-        display: flex;
-        flex-direction: column;
         justify-content: center;
+        text-align: justify;
+        max-width:1000;
         align-items: center;
-    } 
-    .card{
-        margin-top: 20px;
-        
-    }
+     }
+     .skill{
+        overflow: hidden;
+     }
+     .box{
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+     }
+     .card{
+         margin: 10px;
+     }
 }
+@media only screen and (max-width:360px){
+    
+}
+
 /* ANIMATION */
 .content h2{
     animation: colors;
