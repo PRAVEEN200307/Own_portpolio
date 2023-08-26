@@ -3,10 +3,10 @@
     padding: 0;
     font-family: sans-serif;
     box-sizing: border-box;
-    overflow: hidden;
+   
 }
 .hero{
-    height: 550px;
+    height:100vh;
     width: 100vw;
     background:url('image/hero-bg-1.jpg');
     background-position: center;
@@ -88,7 +88,7 @@ nav ul li a:hover{
     margin-right: 15px;
 }
 input[type="text"]{
-    margin-top:40px;
+    margin-top:100px;
     padding: 14px 130px;
     border-radius: 30px;
     color: #000000;
@@ -111,7 +111,7 @@ input[type="text"]:hover{
     border: 1px solid #fff;
     transition: all 0.5s ease;
     position:relative;
-    top:60px;
+    top:50px;
 
 }
 .subcribe a:hover{
@@ -132,6 +132,12 @@ input[type="text"]:hover{
 }
 .main{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.abdulkalam img{
+    width: 400px;
 }
 .about_content{
     margin-left: 30px;
@@ -264,42 +270,7 @@ input[type="text"]:hover{
     border-radius: 50%;
     background-color: lightcyan;
 }
-/* resonsive try panalam sir */
-@media only screen and (max-width:700px) 
-{ 
-  
-}
-@media only screen and (max-width:1300px) 
-{
-    .main{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: justify;
-        max-width:1000;
-        align-items: center;
-     }
-     .skill{
-        overflow: hidden;
-     }
-     .box{
-         flex-direction: column;
-         justify-content: center;
-         align-items: center;
-     }
-     .card{
-         margin: 10px;
-     }
-     .about_content p{
-         max-width: 400px;
-     }
-}
-@media only screen and (max-width:360px){
-    .hero{
-        height:fit-content;
-        overflow: hidden;
-    }
-}
+
 
 /* ANIMATION */
 .content h2{
@@ -325,4 +296,22 @@ input[type="text"]:hover{
     100%{
         color: #e91bf4;
      }
+}
+@media (max-width:1321px){
+   .box{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+   }
+   .card{
+      margin-top:30px;
+   }
+   .Hire_me h1{
+      text-align: center;
+   }
+   input[type="text"]{
+      transform: translateY(-67px);
+   }
+   
 }
