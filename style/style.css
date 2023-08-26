@@ -3,6 +3,7 @@
     padding: 0;
     font-family: sans-serif;
     box-sizing: border-box;
+    overflow: hidden;
 }
 .hero{
     height: 550px;
@@ -289,9 +290,15 @@ input[type="text"]:hover{
      .card{
          margin: 10px;
      }
+     .about_content p{
+         max-width: 400px;
+     }
 }
 @media only screen and (max-width:360px){
-    
+    .hero{
+        height:fit-content;
+        overflow: hidden;
+    }
 }
 
 /* ANIMATION */
