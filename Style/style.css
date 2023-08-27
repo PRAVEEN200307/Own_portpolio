@@ -1,0 +1,154 @@
+:root{
+    --yellow:hsl(20, 85%, 50%);
+    --white:whitesmoke;
+    --green:hsl(114, 72%, 48%);
+    --red:crimson;
+}
+
+header i,nav i{
+    margin-right: 10px;
+}
+body,h2{
+    margin:0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.landing{
+    background-image:url('image/pexels-mona-sabha-cabrera-806457\(1\).jpg');
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+    color: white;
+}
+header a{
+    text-decoration: none;
+    color:var(--red);
+}
+header{
+    display: flex;
+    padding: 1em;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap:1em;
+}
+#logo{
+    flex:3;
+    font-size: 1.25em;
+    min-width:205px;
+}
+nav{
+    flex:2;
+    display: flex; 
+}
+nav a{
+    flex: 1;
+    min-width:93px;
+}
+nav a:hover{
+    color:var(--green);
+}
+.maintext{
+    display: flex;
+    flex-direction: column;
+    height:60vh;
+    justify-content: center;
+    padding: 2em;
+}
+.tagline1{
+    color:var(--yellow);
+    font-size:2.5em;
+    font-weight: bold;
+}
+.tagline2{
+    color: var(--yellow);
+}
+.maintext div{
+    margin-top: .75em;
+}
+.maintext button{
+    width: 20vw;
+    margin-top: 2em;
+    border-radius: 10px;
+    padding:.7em;
+    background-color: var(--green);
+    color:var(--white);
+    border: 1px solid var(--green);
+}
+.menu{
+    background-color:#CACACA;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(278px,1fr));
+}
+#Menuheading,#locheading{
+    background-color:#CACACA;
+    font-size: 2.5em;
+    color:#dc8500;
+    justify-content: center;
+    display: flex;
+}
+.menu th{
+    color:var(--green);
+    font-size: 1.8em;
+}
+table{
+    width:100%;
+    padding: 1em;
+}
+.menu tr{
+    display: flex;
+    justify-content: center;
+    margin-top:.8em;
+}
+.menu td:nth-child(1){
+    justify-self:left;
+    flex:1;
+}
+.menu td:nth-child(2){
+    justify-self:right;
+}
+.maincourse {
+    grid-row:span 2;
+}
+.locations{
+    background-color:#CACACA;
+    display: flex;
+    flex-wrap: wrap;
+}
+.locations h2{
+    color:#dc8500;
+    margin-bottom:.8em;
+}
+.locations>div{
+    flex: 1;
+    padding: 1em;
+    min-width: 258px;
+    text-align: center;
+    border: 1px solid #fff;
+}
+footer{
+    background-color: #756a6a;
+    padding:10px 0;
+    color:#fff;
+    text-align: center;
+}
+footer i{
+    margin-right: 30px;
+    margin-bottom: 10px;
+    border: 1px solid #fff;
+    padding: .2em .4em;
+    border-radius:10em;
+    transition: all ease 0.5s;
+}
+footer i:hover{
+    transform: translate(0,-10px);
+}
+footer i:nth-child(1):hover{
+    background-color:green;
+}
+footer i:nth-child(2):hover{
+     /* color: #1c71d8; */
+     background-color: #1c71d8;
+}
+footer i:nth-child(3):hover{
+    background-color:#db2ade;
+}

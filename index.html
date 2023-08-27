@@ -1,98 +1,189 @@
-<html>
-    <head>
-       <title>my profile</title>
-       <link rel="stylesheet" type="text/css" href="style/style.css">
-
-
-       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
-       integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
-       crossorigin="anonymous" 
-       referrerpolicy="no-referrer"/>
-    </head>
-    <body>
-        <div class="hero">
-        <nav>
-            <h2 class="name">Praveen kumar</h2>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#me">About me</a></li>
-                <li><a href="#skills">skills</a></li>
-                <li><a href="#contact">contact</a></li>
-            </ul>
-           <a href="#subcribe" class="btn">Subscribe</a>
-        </nav>
-        <div class="content">
-            <h3>hello my name is</h3>
-            <h2>Praveen <span>kumar</span></h2>
-            <h4>i'm a Web Developer</h4>
-           <div class="subcribe">
-            <form action="">
-                <input type="text" name="name" id="" placeholder="Enter your name">  
-            </form>
-            <a href="#summit" class="child">let's start</a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spicy hut - Restaurant in chennai</title>
+    <link rel="stylesheet" href="Style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="landing">
+        <header>
+            <a href="index.html" id="logo" ><i class="fa-solid fa-cookie-bite"></i>
+                Spicy Hut</a>
+            <nav>
+                <a href=""><i class="fa-solid fa-bars"></i> Menu</a>
+                <a href=""><i class="fa-solid fa-location-pin"></i>Locations</a>
+            </nav>
+        </header>
+        <div class="maintext">
+            <div class="tagline1">
+                Finest Treat for Your Taste Buds
+            </div>
+            <div class="tagline2">
+                Freshest Ingredients Guranteed
+            </div>
+            <div class="callus">
+                Call us @+91 1234567890         
+            </div>
+            <button>Order Online</button>
         </div>
-        </div>
-        </div>
-        <section class="about_me" id="me">
-           <div class="main">
-             <img src="style/image/mr_abdukalam_sir.jpeg" alt="mr_abdulkalam_sir"  height="550px">
-             <div class="about_content">
-                <h1>its about Me</h1>
-                <h5>Developer cum Designer</h5>
-                <p>i'm a Developer with rich experience in html and css i  very confident
-                    to developering my webpage and quickly and getting user experence,
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet vero rem architecto magnam libero odio laborum facere rerum delectus non exercitationem doloribus, molestiae voluptatum quibusdam saepe ea consectetur a similique!
-                    Maxime assumenda, sapiente numquam, est voluptas recusandae, tenetur magni fugiat nobis blanditiis atque qui quaerat nostrum dignissimos deleniti obcaecati ex tempore. Laboriosam placeat magnam possimus ducimus impedit, nemo doloremque sunt?
-                    Aperiam assumenda blanditiis perspiciatis. Perferendis, aspernatur quo minus voluptatum quae placeat quam cupiditate neque deleniti aperiam ab, excepturi eos repudiandae ad, odio voluptas aut consequuntur? Eius unde officiis id provident?
-                    Tempore temporibus ratione perferendis eum ullam sunt, consequatur porro ltus ducimus non placeat nobis asperiores omnis. Repellendus, nostrum reiciendis 
-             </div>
+    </div>
+    <h2 id="Menuheading"> Menu</h2>
+    <div class="menu">
+        <div class="starters">
+            <table>
+                <th colspan="2">Starters</th>
+                <tr>
+                    <td>Paneer Tikka</td>
+                    <td>&#8377 180</td>
+                </tr>
+                <tr>
+                    <td>Gobi 65</td>
+                    <td>&#8377 165</td>
+                </tr>
+                <tr>
+                    <td>Veg Pakoda</td>
+                    <td>&#8377 160</td>
+                </tr>
+                <tr>
+                    <td>Mirchi Bajji</td>
+                    <td>&#8377 155</td>
+                </tr>
+                <tr>
+                    <td>Chilli Gobi</td>
+                    <td>&#8377 170</td>
+                </tr>
+                <tr>
+                    <td>Baby Corn Manchurian</td>
+                    <td>&#8377 185</td>
+                </tr>
+                <tr>
+                    <td>Chilli Paneer</td>
+                    <td>&#8377 190</td>
+                </tr>
+              </table>
            </div>
-        </section>
-        <!-- skill section -->
-        <div class="skill">
-            <div class="title">
-                <h2>Skills</h2>
-                <div class="box">
-                    <div class="card">
-                    <i class="fa-solid fa-bars fa-beat fa-2xs"></i>
-                      <h4 style="margin-top:30px;">Softwate Testing</h4>
-                      <p>responsive wen developmnr
-                         using HTMl,CSS <br> 
-                      </p>  
-                      <a href="" class="rm">read more</a>
-                    </div>
-                    <div class="card">
-                        <i class="fa-brands fa-whatsapp"></i>                        <h4>App development</h4>
-                        <p>responsive wen developmnr
-                           using HTMl,CSS <br>
-                        </p>  
-                        <a href="" class="rm">read more</a>
-
-                      </div>
-                    <div class="card">
-                        <i class="fa-brands fa-github"></i>                        <h4>web development</h4>
-                        <p>responsive wen developmnr
-                           using HTMl,CSS <br>
-                        </p>  
-                        <a href="">read more</a>
-
-                    </div>
-                </div>
+            <div class="maincourse">
+                <table>
+                    <th colspan="2">Main Course</th>
+                    <tr>
+                        <td>Veg Fried Rice</td>
+                        <td>&#8377 340</td>
+                    </tr>
+                    <tr>
+                        <td>Schezwan Fried Rice</td>
+                        <td>&#8377 350</td>
+                    </tr>
+                    2  <tr>
+                        <td>Veg Biriyani</td>
+                        <td>&#8377 370</td>
+                    </tr>
+                    <tr>
+                        <td>Paneer Biriyani</td>
+                        <td>&#8377 390</td>
+                    </tr>
+                    <tr>
+                        <td>Mushroom Biriyani</td>
+                        <td>&#8377 385</td>
+                    </tr>
+                    <tr>
+                        <td>Veg Noodels</td>
+                        <td>&#8377 360</td>
+                    </tr>
+                    <tr>
+                        <td>Schezwan Noodles</td>
+                        <td>&#8377 370</td>
+                    </tr>
+                    <tr>
+                        <td>Veg Pulav</td>
+                        <td>&#8377 340</td>
+                    </tr>
+                    <tr>
+                        <td>Kashmiri Pulav</td>
+                        <td>&#8377 370</td>
+                    </tr>
+                    <tr>
+                        <td>Sambar Rice</td>
+                        <td>&#8377 280</td>
+                    </tr>
+                    <tr>
+                        <td>Curd Rice</td>
+                        <td>&#8377 210</td>
+                    </tr>
+                </table>
             </div>
-        </div>
-        <div class="Hire_me">
-             <h1>Let 's me you  nice webpage</h1>
-             <a href="#">hire me</a>
-        </div>
-        <div class="auther">
-            <h4>Praveen kumar</h4>
-            <p>for more detail</p>
-            <div class="social_media">
-                <a href=""><i class="fa-brands fa-whatsapp"></i></a>
-                <a href=""><i class="fa-brands fa-youtube"></i> </a>
-                <a href=""> <i class="fa-brands fa-facebook"></i></a>
+            <div class="chats">
+                <table>
+                    <th colspan="2">Chats</th>
+                    <tr>
+                        <td>Samosa</td>
+                        <td>&#8377 120</td>
+                    </tr>
+                    <tr>
+                        <td>Pani Poori</td>
+                        <td>&#8377 170</td>
+                    </tr>
+                    <tr>
+                        <td>Masala Puri</td>
+                        <td>&#8377 160</td>
+                    </tr>
+                    <tr>
+                        <td>Pav Baaji</td>
+                        <td>&#8377 155</td>
+                    </tr>
+                    <tr>
+                        <td>Bhel Puri</td>
+                        <td>&#8377 160</td>
+                    </tr>
+                    <tr>
+                        <td>vada pav</td>
+                        <td>&#8377 165</td>
+                    </tr>
+                    <tr>
+                        <td>Raj Kachori - Best Seller</td>
+                        <td>&#8377 190</td>
+                    </tr>
+                </table>
             </div>
+    </div>
+    <h2 id="locheading">Locations</h2>
+    <div class="locations">
+        <div class="annanagar">
+            <h2>Anna Nagar</h2>
+            <address>
+                15, 10th Main Road</br>
+                Anna Nagar,</br>
+                Chennai - 600102
+            </address>
         </div>
-    </body>
+        <div class="velachery">
+            <h2>Velachery</h2>
+            <address>
+                5, 3rd Cross Road,</br>
+                Vijaya Nagar,</br>
+                Velachery,</br>
+                Chennai - 600042
+            </address>
+        </div>
+        <div class="Tambaram">
+            <h2>Tambaram</h2>
+            <address>
+                145, MIT Road,</br>
+                Tambaram,</br>
+                Chennai - 600045
+            </address>
+        </div>
+    </div>  
+    <footer>
+        <i class="fa-brands fa-whatsapp"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>        
+        <div id="copyright">&#169 copyright Spicy Hut</div>
+    </footer>  
+</body>
 </html>
-<!--  #e01b24;"></i> -->
